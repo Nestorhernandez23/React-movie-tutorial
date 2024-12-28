@@ -3,7 +3,7 @@ import '../css/NavBar.css';
 
 function NavBar() {
 return <nav className="navbar">
-    <div className="navbar-brand">
+    <div className="navbar-brand"> 
        <Link to="/">Movie App</Link>
     </div>
 
@@ -14,5 +14,7 @@ return <nav className="navbar">
 </nav>
 
 }
+
+// export the NavBar component
 
 export default NavBar;
